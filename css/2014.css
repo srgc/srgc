@@ -100,3 +100,10 @@ a:hover {
   .btn.btn-navbar:hover {background-color:#585754;}
 }
 
+/* ----- Carousel ------------------------ */
+.view.carousel .carousel-indicators li {
+  border: 1px solid #596237;
+}
+.view.carousel .carousel-indicators .active {
+  background-color: #596237;
+}
