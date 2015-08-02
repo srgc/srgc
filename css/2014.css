@@ -67,6 +67,9 @@ a:hover {
 }
 
 /* ----- Main Navigation ------------- */
+.navbar {
+  background: #B6C684 none repeat scroll 0 0;
+}
 .navbar .nav > li > a {
   color: #663300;
 }
