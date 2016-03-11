@@ -70,18 +70,24 @@ a.edit-link:hover, .edit-link a:hover, a.edit-link:focus, .edit-link a:focus {
   font-style: italic;
 }
 
+thead, thead th {
+  background-color: #596237;
+  border-color: #663300;
+}
 /* ----- Main Navigation ------------- */
 .navbar {
   background: #B6C684 none repeat scroll 0 0;
 }
 .navbar .nav > li > a {
   color: #663300;
+  border-radius: 0;
 }
 .navbar .nav > .active > a:focus, .navbar .nav > .active-trail > a:focus {
   color: #663300;
 }
 .navbar .nav > li > a:hover, .navbar .nav > li > a:active {
   color: #663300;
+  border-bottom: 1px dotted;
 }
 .navbar .nav li.dropdown.open > .dropdown-toggle, .navbar .nav li.dropdown.active > .dropdown-toggle, .navbar .nav li.dropdown.open.active > .dropdown-toggle {
   color: #663300;
@@ -126,4 +132,11 @@ a.edit-link:hover, .edit-link a:hover, a.edit-link:focus, .edit-link a:focus {
 .calendar-calendar td .inner div.day a {
   color: #663300;
 }
-
+ul.pager li a {
+  background-color: #FFFFFF;
+  border: 1px solid #DDDDDD;
+  border-radius: 15px;
+}
+.view .date-nav-wrapper .date-prev, .view .date-nav-wrapper .date-next {
+  background: none;
+}
