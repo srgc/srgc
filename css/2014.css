@@ -130,7 +130,7 @@ thead, thead th {
   background-color: #7A864B;
   color: #7A864B;
 }
-.calendar-calendar td .inner div.day a {
+.calendar-calendar td .inner div.day, .calendar-calendar td .inner div.day a {
   color: #663300;
 }
 ul.pager li a {
@@ -140,4 +140,9 @@ ul.pager li a {
 }
 .view .date-nav-wrapper .date-prev, .view .date-nav-wrapper .date-next {
   background: none;
+}
+
+.calendar-calendar .month-view .full td.single-day div.monthview, .calendar-calendar .week-view .full td.single-day div.weekview, .calendar-calendar .day-view .full td.single-day div.dayview {
+  background-color: #B6C684;
+  color: #663300;
 }
