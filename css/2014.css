@@ -81,6 +81,7 @@ thead, thead th {
 .navbar .nav > li > a {
   color: #663300;
   border-radius: 0;
+  border-bottom: 1px solid #B6C684;
 }
 .navbar .nav > .active > a:focus, .navbar .nav > .active-trail > a:focus {
   color: #663300;
